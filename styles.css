@@ -19,18 +19,17 @@ body {
 }
 
 #level-title, #rules {
-  position: relative;
-  top: 550px;
   font-size: 4rem;
   padding: 10px;
   color: white;
   text-shadow: 3px 3px 3px black;
+  position: relative;
+  top: 400px;
 }
 
 #rules {
   font-size: 2rem;
 }
-
 
 
 .btn {
@@ -39,6 +38,8 @@ body {
   width: 120px;
   background-repeat: no-repeat;
   background-size: 100px 100px;
+  position: relative;
+  top: 400px;
 }
 
 .game-over {
@@ -50,28 +51,18 @@ body {
 
 .red {
   background-image: url("images/msn.png");
-  position: relative;
-  left: 100px;
-  top: 200px;
 }
 
 .green {
   background-image: url("images/browser.png");
-  position: relative;
-  right: 200px;
 }
 
 .blue {
   background-image: url("images/recylce.png");
-  position: relative;
-  right: 400px;
-  bottom: 100px
 }
 
 .yellow {
   background-image: url("images/word.png");
-  position: relative;
-  left: 400px;
 }
 
 .pressed {
